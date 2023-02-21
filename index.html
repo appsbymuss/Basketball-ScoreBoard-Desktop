@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class='title'>HOME</h3>
+                 <div class='score' id="score-home">0</div>
+                    <div class="btn-container">
+                     <button class="btn" id='btn-1-home' onclick="add1home()"> +1</button>
+                     <button class="btn"id='btn-2-home'onclick="add2home()"> +2</button>
+                     <button class="btn"id='btn-3-home'onclick="add3home()"> +3</button>                    
+                    </div>
+            </div>
+            <div>
+                <h3 class='title'>GUEST</h3>
+                 <div class='score' id="score-guest">0</div>
+                    <div class="btn-container">
+                     <button class="btn" onclick="add1guest()"> +1</button>
+                     <button class="btn" onclick="add2guest()"> +2</button>
+                     <button class="btn" onclick="add3guest()"> +3</button>                    
+                    </div>
+            </div>
+        </div>
+        <div>
+            <button id="play-again" onclick="playAgain()"> Play Again </button>
+        <div>
+            
+        <div class="footer">
+            <img src="DSC03580.JPG" id="logo-img">
+            <h5> APPS BY MUSS COPYRIGHT 2023</h5>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
